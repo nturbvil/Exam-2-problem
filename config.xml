@@ -6,7 +6,7 @@ id = "edu.uab.business.studentapp"
 versionCode = "1" version = "0.0.1" >
 <!-- versionCode is optional and Android only -->
 <name>Exam 2 Problem</name>
-<description> Exam 2 Mobile App
+<description> Nathan Turbville
 </description>
 <author> Nathan Taylor Turbville
 </author>
