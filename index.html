@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Exam 2 Mobile App</title>
+    <link rel="stylesheet" type="text/css" href="styles/ExamProblem2.css" />
+    <script src="js/ExamProblem2.js"></script>
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+<h1>Exam 2 Mobile App</h1>
+ 
+<hr>
+
+<select onchange="MenuChoice()" id="menu">
+<option>Choose a feature..</option>
+<option>View Product Category List</option>
+<option>Create Product Category</option>
+<option>Change a Product Category Description</option>
+<option>Delete a Product Category</option>
+<option>About</option>
+</select>
+<hr>
+<section id="displaycontainer">
+<section id="section1" class="section1">
+<h1>Product Category List</h1>
+<label id="section1display">List output</label>
+</section>
+<section id="section2" class="section2">
+<h1> Create Product Category</h1>   
+<p>Enter the following fields and press the "Create" button to create a new product category.</p><br>
+New Product Category Name:<br>
+<input type="text" id="CatName" placeholder="ex. cookies"><br>
+New Product Category Description:<br>
+<input type="text" id="CatDescript" placeholder="ex. Oreos"><br>
+<input type="button" class="button" value="Create" onclick="CreateCategory()">
+<label id="result2"></label>
+</section>
+
+<section id="section3" class="section3">
+<h1>Edit Product Category Description</h1>
+<p>Enter the following fields and press the "Update" button to change a product category description.</p><br>
+Product Category ID to edit description:<br>
+<input type="text" id="CatID" placeholder="ex. 1432"><br>
+Updated Product Category Description:<br>
+<input type="text" id="CatD" placeholder="ex. Oreos"><br>
+<input type="button" class="button" value="Update" onclick="UpdateDescription()">     
+<label id="result3"></label>
+</section>
+
+
+<section id="section4" class="section4">
+    <h1>Delete a Product Category</h1>
+<p>Enter the following field and press the "Delete" button to delete a product category</p><br>
+Product Category ID to delete<br>
+<input type="text" id="CATID" placeholder="ex. 1432"><br>
+<input type="button" class="button" value="Delete" onclick="DeleteCategory()">          
+<label id="section4display"></label>
+</section>
+
+<section id="section5" class="section5">
+    <h1>About</h1>
+    <p>Nathan Turbville<br>Senior, Management Information Systems<br>
+    Collat School of Business<br>University of Alabama at Birmingham</p>
+
+</section>
+</section>
+</body>
+</html>
