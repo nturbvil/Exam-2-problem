@@ -9,15 +9,15 @@ h2 {font-family: sans-serif;}
     
 }
 
-#section1 {background: lightgrey; visibility: hidden; position: absolute; width: 600px;  margin: 5px 5px 5px 5px; padding: 10px 10px 10px 10px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+#section1 {background: lightgrey; visibility: hidden; position: absolute; width: 100%;  margin: 5px 5px 5px 5px; padding: 10px 10px 10px 10px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
-#section2 {background: lightgrey; visibility: hidden; position: absolute; width: 600px;  margin: 5px 5px 5px 5px; padding: 10px 10px 10px 10px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+#section2 {background: lightgrey; visibility: hidden; position: absolute; width: 100%;  margin: 5px 5px 5px 5px; padding: 10px 10px 10px 10px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
-#section3 {background: lightgrey; visibility: hidden; position: absolute; width: 600px;  margin: 5px 5px 5px 5px; padding: 10px 10px 10px 10px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+#section3 {background: lightgrey; visibility: hidden; position: absolute; width: 100%;  margin: 5px 5px 5px 5px; padding: 10px 10px 10px 10px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
-#section4 {background: lightgrey; visibility: hidden; position: absolute; width: 600px;  margin: 5px 5px 5px 5px; padding: 10px 10px 10px 10px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+#section4 {background: lightgrey; visibility: hidden; position: absolute; width: 100%;  margin: 5px 5px 5px 5px; padding: 10px 10px 10px 10px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
-#section5 {background: lightgrey; visibility: hidden; position: absolute; width: 600px;  margin: 5px 5px 5px 5px; padding: 10px 10px 10px 10px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+#section5 {background: lightgrey; visibility: hidden; position: absolute; width: 100%;  margin: 5px 5px 5px 5px; padding: 10px 10px 10px 10px;  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 
 table {
     font-family: arial, sans-serif;
@@ -37,7 +37,7 @@ tr:nth-child(odd) {
     background-color: whitesmoke;
 }
 input[type=text] {
-    width: 100%;
+    width: 60%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
