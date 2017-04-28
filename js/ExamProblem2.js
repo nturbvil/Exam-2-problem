@@ -343,3 +343,13 @@ function DeleteCategory()
             }
                 
         }
+function myFunction() {
+    var txt;
+    var r = confirm("Are you sure you want to delete!\nSelect OK or Cancel.");
+    if (r == true) {
+        DeleteCategory();
+    } else {
+        txt = "You pressed Cancel!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
